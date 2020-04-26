@@ -4,7 +4,12 @@
                 <style>
                     #div1{
 			    background-color: white;
-			 }   
+			 }  
+		    .div2{
+			    position: relative;
+			    text-align: center;
+			    color: white;
+		         }   
                     #ts1{
 			    position: relative;
 			    padding-left: 40px;
@@ -32,29 +37,37 @@
                          background-color: white;
                          color: black;
                          }
+		    .pdiv2{
+			    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    font-size:40px;
+                            transform: translate(-50%,-50%);			    
+		          }  
 		    .home{
-			  left: 390px;
+			  left: 330px;
 			 }
 		    .abus{
-                          left: 500px;
+                          left: 440px;
                          }
 		    .services{
-			  left: 640px;
+			  left: 580px;
                              }
                     .priplan{
-			  left: 770px;
+			  left: 710px;
                             }
 		    .getintouch{
-			    left: 920px;
+			    left: 860px;
 			       }
+		    .searchBar{
+                            left: 1150px;
+                            border: 1px solid;
+                              }
 		    .home:hover,.abus:hover,.services:hover,.priplan:hover,.getintouch:hover{
 			    background-color: #dddddd;
 		            text-decoration: underline;
 		            }
-		    .searchBar{
-			    left: 1150px;
-			    border: 1px solid;
-			      }
+		    
                 </style>
 		 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	</head>
@@ -68,8 +81,9 @@
 			<button class="getintouch">Get in Touch</button>
 			<input type="text" placeholder="Search..." class="searchBar">
 		</div>	
-		<div id="div2">
+		<div class="div2">
 			<img src="ts3.jpg" id="ts2" height= 570px width=100%>
+			<div class="pdiv2">Welcome to Online Tuckshop</div> 
 		</div>	
 	</body>
 </html>
