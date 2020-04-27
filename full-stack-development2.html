@@ -20,26 +20,43 @@
 			        font-size: 25px;
 				background-color: white;
 				cursor: pointer;
+				overflow: fixed;
 			     }
 			.home:hover,.aboutus:hover,.content:hover,.contactus:hover,.aboutthecourse:hover{
 				background-color: #dddddd;
 				text-decoration: underline;
 				   }
 			.home{
-				left: 430px;
+				left: 400px;
 			     }	
 			.aboutus{
-				left: 550px;
+				left: 510px;
 			        }
 			.aboutthecourse{
-				left:700px;
+				left:660px;
 				       }
 			.content{
-				left: 950px;
+				left: 910px;
 			        }
 			.contactus{
-				left: 1090px;
-				  }
+				left: 1050px;
+     				  }
+                        .searchBar{
+                         position: absolute;
+                         top: 5px;
+                         border: none;
+                         padding: 12px 16px;
+                         font-family: monaco;
+                         font-size: 25px;
+                         background-color: white;
+                         color: black;
+			 left: 1280px;
+                         right: 80px;
+			}
+			.searchBar:hover{
+				  border: 1px solid;
+				
+                                        }
                 </style>
 	</head>
 	<body>
@@ -50,6 +67,8 @@
 		    <button class="aboutthecourse">About The Course</button>
 		    <button class="content">Content</button>
 		    <button class="contactus">Contact Us</button>
+		     <input type="text" placeholder="Search..." class="searchBar">
+
 		</div>
 	</body>
 </html>	
